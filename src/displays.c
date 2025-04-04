@@ -28,8 +28,8 @@ const EpdDisplay_t ED097OC4 = {
 };
 
 const EpdDisplay_t ED097TC2 = {
-    .width = 1200,
-    .height = 825,
+    .width = 1456,
+    .height = 1072,
     .bus_width = 8,
     .bus_speed = 22,
     .default_waveform = &epdiy_ED097TC2,
