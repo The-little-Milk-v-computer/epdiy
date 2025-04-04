@@ -10,7 +10,7 @@ static int s_temperature;
 
 // choose the default demo board depending on the architecture
 #ifdef CONFIG_IDF_TARGET_ESP32
-#define DEMO_BOARD epd_board_v6
+#define DEMO_BOARD epd_board_v5
 #elif defined(CONFIG_IDF_TARGET_ESP32S3)
 #define DEMO_BOARD epd_board_v7
 #endif
